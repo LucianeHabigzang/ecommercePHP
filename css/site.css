@@ -1,0 +1,480 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+#header {
+	text-align: center;
+	padding: 5px;
+}
+#nav {
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+#section {
+}
+#fundo {
+	background-image: url("../img/forest.png");
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+#principal {
+	background-image: url("../img/foto1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 20px;
+	width: 400px;
+	height: 350px;
+	top: 50%;
+	left: 50%;
+	margin-left: 400px;
+	margin-top: 50px;
+	text-align: center;
+}
+#principal01 {
+	width: 400px;
+	height: 700px;
+	visibility: hidden;
+}
+#principalIndex {
+	width: 100%;
+	height: 1300px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+#principalNews {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	color: white;
+	padding-top: 200px;
+}
+#principalCadastro {
+	width: 100%;
+	height: 800px;
+	text-align: center;
+	color: white;
+	padding-top: 100px;
+}
+#PagColetania {
+	display: none;
+}
+#icons {
+	text-align: right;
+	height: 30px;
+	width: 100%;
+	background-color: black;
+}
+#iconsItem {
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	float: right;
+	padding-right: 10px;
+}
+#languages {
+	height: 30px;
+	width: 100%;
+	text-align: right;
+	float: right;
+	padding: 10px 50px 0px;
+}
+#principalFotos {
+	color: #777;
+	font: 12px/1.4 "helvetica neue", arial, sans-serif;
+	width: 620px;
+	height: 700px;
+	margin: 100px 0px 0px 25%;
+}
+#galleria {
+	height: 550px
+}
+#principalRelease {
+	width: 100%;
+	height: 1000px;
+	text-align: left;
+	color: white;
+	padding-top: 100px;
+	text-align: left;
+}
+#divRelease {
+	width: 100%;
+	height: 500px;
+}
+#divLinha {
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 80px;
+}
+#divLinhaProd {
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 50px;
+}
+#divLinhaCarrinho{
+	width: 100%;
+	text-align: left;
+	color: white;
+	height: 30px;
+}
+#divListaProd {
+	width: 20%;
+	text-align: center;
+	color: white;
+	height: 50px;
+	float: left;
+}
+#divLinhaCadastro {
+	width: 70%;
+	text-align: center;
+	color: white;
+	height: 50px;
+}
+#divListaPedi {
+	width: 16%;
+	text-align: center;
+	color: white;
+	height: 50px;
+	float: left;
+}
+#divListaPediTotal {
+	width: 12.2%;
+	text-align: center;
+	color: white;
+	height: 50px;
+	float: left;
+}
+#divFormUser {
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 450px;
+}
+#divFormEntrega {
+	width: 100%;
+	text-align: center;
+	color: white;
+	height: 180px;
+}
+#divImgRelease {
+	width: 54%;
+	height: 400px;
+	text-align: right;
+	float: left;
+}
+#textoRelease {
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+#divMsc {
+	width: 45%;
+	height: 80px;
+	text-align: left;
+	float: right;
+}
+#principalBanda {
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	display: table;
+}
+#principalAgenda {
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+#bandaInteg {
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+}
+#bandaFoto {
+	width: 40%;
+	height: 200px;
+	float: left;
+	margin: 0px;
+	text-align: right;
+}
+#bandaInfo {
+	width: 55%;
+	height: 200px;
+	float: right;
+	margin: 0px;
+	text-align: left;
+}
+#agendaTitulo {
+	width: 90%;
+	height: 40px;
+	margin-left: 100px;
+	padding: 10px;
+	color: white;
+	font-family: "Old English Text MT";
+	font-size: 200%;
+	text-align: left;
+}
+#agendaSubTitulo {
+	width: 98%;
+	height: 30px;
+	padding: 10px;
+	color: white;
+	font-family: "Old English Text MT";
+	font-size: 150%;
+	border-top: 2px solid #444;
+}
+#agendaItem {
+	width: 98%;
+	height: 20px;
+	padding: 10px;
+	border-top: 2px solid #444;
+	color: white;
+}
+#agendaData {
+	width: 20%;
+	height: 20px;
+	float: left;
+}
+#agendaEvento {
+	width: 30%;
+	height: 20px;
+	float: left;
+}
+#agendaLocal {
+	width: 50%;
+	height: 20px;
+	float: left;
+}
+#indexFoldFull {
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	text-decoration: none !important;
+}
+#cadastroLab {
+	width: 30%;
+	height: 30px;
+	float: left;
+	text-align: right;
+}
+#cadastroCampo {
+	width: 60%;
+	height: 30px;
+	float: left;
+	text-align: left;
+	padding-left: 40px;
+}
+#principalRestrita {
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+}
+#restritaMenu {
+	width: 30%;
+	height: 700px;
+	float: left;
+	text-align: left;
+}
+#restrita {
+	width: 65%;
+	height: 700px;
+	float: left;
+	text-align: left;
+}
+#tituloProdutos {
+	width: 100%;
+	height: 80px;
+	text-align: left;
+	color: white;
+}
+#listaProdutos{
+	width: 100%;
+	height: 500px;
+	overflow-y: scroll;
+}
+#itemProduto{
+	width: 30%;
+	height: 360px;
+	text-align: left;
+	color: white;
+	float: left;
+	max-width: 250px;
+}
+#DetalheProduto{
+	width: 50%;
+	height: 600px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#itemProdutosImagemTxt{
+	width: 100%;
+	height: 210px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#itemProdutosImagem{
+	width: 100%;
+	height: 180px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#itemProdutosTxt{
+	width: 100%;
+	height: 10px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#divProdutosValor{
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#divProdutosValorPromo{
+	width: 100%;
+	height: 50px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#cadastroProdutoImagem{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+#divProdutoDecoracao{
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid #444;
+	height: 330px;
+}
+#txtDecoracaoNone{
+	text-decoration:none; 
+	color:White;
+}
+#divProdutosDetalhes{
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	color: white;
+	float: left;
+}
+#divProdutosDetalhesAlinhaValor{
+	width: 80%;
+	height: 30px;
+	text-align: right;
+	color: white;
+	float: left;
+}
+#divPedidosDetalhes{
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#imagemProduto{
+	width: 70%;
+	height: auto;
+}
+#listaCarrinho{
+	width: 100%;
+	height: 250px;
+	overflow-y: scroll;
+}
+#divCarinhoInfo{
+	width: 50%;
+	height: 170px;
+	text-align: left;
+	color: white;
+	float: left;
+}
+#footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	border-top: 2px solid #444;
+}
+.nav ul {
+	margin: 0px;
+	padding: 0;
+	max-width: 100%;
+}
+.nav ul li {
+	display: inline-block;
+	margin: 10px 20px;
+}
+.nav ul li a {
+	font-family: "Old English Text MT";
+	font-size: 200%;
+	text-decoration: none;
+	color: white;
+}
+.navRes ul {
+	display: table-cell;
+	list-style-type: none;
+	margin: 0px;
+	padding: 50px;
+}
+.navRes ul li {
+	margin: 10px;
+	vertical-align: middle;
+}
+.navRes ul li a {
+	font-family: "Old English Text MT";
+	font-size: 150%;
+	text-decoration: none;
+	color: white;
+}
+#navResAdm{
+	padding: 10px;
+	border: 1px solid #444;
+	height: 350px;
+}
+.navResAdm ul {
+	display: table-cell;
+	list-style-type: none;
+	margin: 0px;
+	padding: 50px;
+}
+.navResAdm ul li {
+	margin: 10px;
+	vertical-align: middle;
+}
+.navResAdm ul li a {
+	font-family: "Times New Roman";
+	font-size: 110%;
+	text-decoration: none;
+	color: white;
+}
+@font-face {
+	font-family: "Old English Text MT";
+	src: url(../fonts/OLDENGL.EOT);
+	src: url(../fonts/OLDENGL.TTF) format("truetype");
+}
+@font-face {
+	font-family: "Parchment";
+	src: url(../fonts/PARCHM.EOT);
+	src: url(../fonts/PARCHM.TTF) format("truetype");
+}
+
